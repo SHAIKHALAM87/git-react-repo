@@ -1,6 +1,6 @@
-import {react, useEffect} from "react";
+import {useEffect} from "react";
 import axios from "axios";
-import { useSelector,useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { FETCH_USERS } from "../Actions/Useractions";
 import UserList from "../Component/userlist";
 
@@ -21,7 +21,7 @@ const FakeapiFetch = ()=>{
 
     useEffect(() => {
         fetchApiReq();
-    }, []);
+    });
 
     return(
         <>
