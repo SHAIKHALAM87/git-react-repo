@@ -1,12 +1,9 @@
-import {react, useEffect} from "react";
-import axios from "axios";
-import { useSelector,useDispatch } from "react-redux";
+import { useSelector} from "react-redux";
 
 
 
 const UserList = ()=>{
 
-    const dispatch = useDispatch();
     const userdata = useSelector((state) => state.allUsers.userData.data);
 	const islogged = useSelector((state) => state.allUsers.loggedIn);
 	

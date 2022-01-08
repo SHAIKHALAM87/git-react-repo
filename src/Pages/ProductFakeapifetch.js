@@ -1,6 +1,6 @@
-import {react, useEffect} from "react";
+import {useEffect} from "react";
 import axios from "axios";
-import { useSelector,useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { FETCH_PRODUCT } from "../Actions/Productactions";
 
 
@@ -20,7 +20,7 @@ const ProductFakeapiFetch = ()=>{
 
     useEffect(() => {
         fetchApiReq();
-    }, []);
+    });
 
     return(
         <>

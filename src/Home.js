@@ -1,6 +1,5 @@
 import React from 'react';
 import FakeapiFetch from './Pages/Fakeapifetch';
-import { useSelector } from 'react-redux';
 
 function Home (){
 
