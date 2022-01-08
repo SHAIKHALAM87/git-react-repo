@@ -14,10 +14,10 @@ jobs:
         node-version: [16.x]
     
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@master
       - run: npm install
       - run: npm run build
-      - uses: ./.github/actions/automatic-tests@master
+      - uses: SHAIKHALAM87/git-react-repo/.github/actions/automatic-tests@master
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
