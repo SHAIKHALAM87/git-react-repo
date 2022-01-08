@@ -14,7 +14,8 @@ jobs:
         node-version: [16.x]
     
     steps:
-      - uses: actions/checkout
+      - name: Checkout
+      - uses: actions/checkout@v2.4.0
       - run: npm install
       - run: npm run build
       - uses: SHAIKHALAM87/git-react-repo@master
