@@ -12,7 +12,7 @@ render() {
 		<div className="App">
 			<ul className="App-header" style={{'minHeight':100}}>
 			<li>
-				<Link to="/">Home</Link>
+				<Link to="/">Home 1</Link>
 			</li>
 			<li>
 				<Link to="/about">About Us</Link>
