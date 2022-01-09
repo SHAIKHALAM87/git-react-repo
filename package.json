@@ -2,7 +2,7 @@
   "name": "git-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SHAIKHALAM87.github.io/git-react-repo",
+  "homepage": ".",
   "dependencies": {
     "axios": "^0.24.0",
     "gh-pages": "^3.2.3",
